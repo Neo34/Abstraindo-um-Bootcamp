@@ -14,6 +14,10 @@ public class Mentoria extends Conteudo {
      */
     private LocalDate data;
 
+    public Mentoria() {
+
+    }
+
     /**
      * Sobrescreve o método calcularXp da classe Conteudo.
      * Adiciona um valor fixo ao XP padrão definido na classe pai.

@@ -8,6 +8,10 @@ public class Curso extends Conteudo {
 
     private int cargaHoraria;
 
+    public Curso() {
+        super();
+    }
+
     /**
      * Calcula o XP com base na carga horária.
      *

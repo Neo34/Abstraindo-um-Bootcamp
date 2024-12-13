@@ -18,6 +18,10 @@ public abstract class Conteudo {
         this.descricao = descricao;
     }
 
+    public Conteudo() {
+
+    }
+
     /**
      * Método abstrato que será implementado pelas subclasses para calcular o XP específico.
      *
